@@ -1,0 +1,38 @@
+#Exercício do curso de Python para bioinfo do Udemy
+
+
+
+#001-Faça um programa que receba a idade do usuário e diga se ele é maior ou menor de idade.
+
+#Criei um input para inserir a idade
+usuario = int(input('Insira sua idade  '))
+print(usuario)
+
+#Uma condição if com a resposta
+if usuario >= 18:
+    print('O usuário é maior de idade')
+elif usuario < 18:
+    print('O usuário é menor de idade')
+
+
+#002-Faça um programa que receba duas notas digitadas pelo usuário. Se a nota for maior ou igual a seis, escreva aprovado, senão escreva reprovado
+
+#Criei os inputs para notas e a soma delas
+Nota1 = int(input('Insira a primeira nota aqui   '))
+Nota2 = int(input('Insira a segunda nota aqui    '))
+soma = Nota1 + Nota2
+print(soma)
+
+if soma >= 6:
+  print('APROVADO')
+elif soma < 6:
+  print('REPROVADO')
+  
+  
+#003-Escreva um programa que resolva uma equação de segundo grau.
+
+x = int(input('Digite um valor para x  '))
+y = int(input('Digite um valor para y  '))
+mult = x*y
+print(mult)
+
